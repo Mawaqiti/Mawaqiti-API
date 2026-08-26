@@ -1,0 +1,14 @@
+{
+  "name": "mawaqiti-api",
+  "version": "1.0.0",
+  "description": "Self-hosted clone of the Mawagets.net API (city reference data)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.6.2"
+  }
+}
